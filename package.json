@@ -9,9 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.1.6",
+    "next": "^16.2.0-canary.68",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "workflow": "^4.1.0-beta.62"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -23,5 +24,8 @@
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "next": "$next"
   }
 }
